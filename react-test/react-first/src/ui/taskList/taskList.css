@@ -1,0 +1,20 @@
+/* width */
+
+.task-scrollbar::-webkit-scrollbar {
+    @apply w-2;
+  }
+  
+  /* Track */
+.task-scrollbar::-webkit-scrollbar-track {
+    @apply bg-slate-700 rounded-lg;
+  }
+  
+  /* Handle */
+.task-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-slate-800 rounded-lg;
+  }
+  
+  /* Handle on hover */
+.task-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-900;
+}
